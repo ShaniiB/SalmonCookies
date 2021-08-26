@@ -1,0 +1,333 @@
+body {
+    background: rgb(51,172,132);
+    background: linear-gradient(0deg, rgba(51,172,132,1) 30%, rgba(67,145,147,1) 100%);
+    height: 800px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.comptitle{
+    position: relative;
+    top: -70px;
+    left: -540px;
+    z-index: 6;
+    color: #c9c69a;
+    width: 440px;
+    font-size: 55px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
+.compsubheader {
+    position: absolute;
+    top: 45px;
+    left: -390px;
+    z-index: 6;
+    color: #dbd8a3;
+    font-size: 28px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
+ul {
+ display: inline-block;
+ list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 40px 0px 40px;   
+}
+
+ a.menu:link {
+   background-color: #439193 ;
+   color:#c9c69a;
+   font-size:30px;
+   font-variant: small-caps;
+   text-decoration: none;
+   text-indent: -1px;
+}
+
+a.menu:visited {
+    color:#c9c69a;
+    text-decoration: none;
+    text-indent: -1px;
+}
+
+a.menu:hover {
+    color:rgb(219, 241, 90);
+    text-decoration: none;
+    text-indent: -1px;
+}
+
+
+a.menu:active {
+  color:#c9c69a;
+  text-decoration: none;
+  text-indent: -1px;
+}
+
+a {
+    font: #000;
+ }
+ 
+ a:link{
+   font:#000;
+ }
+ 
+ a:hover {
+     font:#000;
+ }
+ 
+ a:active{
+     font: #000;
+ }
+ 
+ a.homemenu {
+    font:rgba(255, 253, 139, 0.533);
+    font-size: 60px;
+    text-decoration: none;
+    padding:  15px;
+ }
+ 
+ a.homemenu:hover {
+     font:#dbcea1;
+     text-decoration: none;
+     transition: ease-in-out 0.3ms;
+  }
+ 
+#navigation {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    width: 100%;
+    height: 80px;
+ }
+
+#innernav {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+ }
+
+
+/********  BEGIN THE FRONT ( WELCOME ) PAGE PORTION OF THE CODE 
+ ---- Most of these divs are self explanitory , please pay no mind ----
+                                                                   ********/
+
+                                                                   
+                                                                   
+#littlenav {
+   position: absolute;
+   width: 100%;
+   height: 80px;
+ } 
+ #companytitle {
+    position: absolute;
+    top: 135px;
+    left: 475px;
+    z-index: 4;
+    color: #c9c69a;
+    width: 440px;
+    font-size: 50px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
+#companysubheader {
+    position: absolute;
+    top: 183px;
+    left: 670px;
+    z-index: 4;
+    color: #dbd8a3;
+    font-size: 25px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
+
+#welcomepanel {
+    position: absolute;
+    top: 210px;
+    left: 340px;
+    z-index:-1;
+    background-color: bisque;
+    background-image: url("images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 450px;
+    width: 900px;
+    height: 450px;
+    overflow:visible;
+    opacity: .80;
+    border-radius: 50px;
+    box-shadow:2px 3px 23px #66797383;
+}
+
+
+#salxmon {
+    position: absolute;
+    top: 185px;
+    left: -53px;
+    z-index: 3;
+    background-image: url("images/salmon.png");
+    background-repeat: no-repeat;
+    background-size: 700px 250px;
+    width: 700px;
+    height:250px;
+    transform: rotate(-30deg);
+}
+
+.picircle {
+    position: absolute;
+    top: 70px;
+    left: 470px;
+    z-index: -1;
+    background-image:url("images/bearpaw.png");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+    opacity: 70%;
+}
+
+/********  END THE FRONT PAGE PORTION OF THE CODE  ********/
+
+/********  BEGIN THE ABOUT & SALES PORTION OF THE CODE 
+ ---- Most of these divs are self explanitory , please pay no mind ----
+                                                                   ********/
+
+
+#content {
+    position: absolute;
+    top: 90px;
+    left:50px;
+    z-index: -2;
+    background-color: #439193;
+    width: 1500px;
+    height: 650px;
+    opacity: 10%;
+    border-radius: 2px;
+    border: #3d8186 2px solid;
+    outline: rgb(51,172,132);
+}
+
+#aboutcontent {
+    position: absolute;
+    top: 100px;
+    left:50px;
+    z-index: -1;
+    overflow: visible;
+    width: 1500px;
+    height: 600px;
+    opacity: 100%;
+    padding: 5px 5px 5px 5px;
+}
+
+#aboutus {
+    position:absolute;
+    top: 150px;
+    left: 600px;
+    z-index: -2;
+    background: rgb(245, 245, 245);
+    width:900px;
+    height:300px;
+    padding:2px;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+ }
+
+#storeform {
+    position:absolute;
+    top: 510px;
+    left: 45px;
+    background: rgb(245, 245, 245);
+    width:425px;
+    height:210px;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+}
+
+main {
+    position: absolute;
+    top: 505px;
+    left: 500px;
+    background: rgb(245, 245, 245);
+    width:860px;
+    height:auto;
+    overflow: hidden;
+    font-size: 14px;
+    font-variant: small-caps;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+    }
+    
+main table,th,td {
+    font-family: 'Oswald', sans-serif;
+    border-collapse: collapse;
+}
+    
+main th,td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(147, 199, 173);
+}
+    
+main th {
+    background-color: #51be7577;
+    color: #FFF;
+    font-size: 14px;
+    font-variant: small-caps;
+}
+    
+form {
+    width: 425px;
+    margin: 2px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+fieldset {
+    font-size: 14px;
+    font-variant: small-caps;
+    border-radius: 20px;
+    border: #8ed9dd3d 5px solid;
+ }
+ 
+button {
+    padding: 5px 5px;
+    margin-top: 110px;
+    margin-left: 26px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align:left;
+    font-variant: small-caps;
+    border-radius: 5px;
+    border: #8ed9dd88 1px solid;
+}
+
+legend {
+    background-color: #51be7577;
+    padding: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-variant: small-caps;
+    border-radius: 10px;
+    border: #8ed9dd88 3px solid;
+ }
+
+label {
+    line-height: 30px;
+    float: left;
+
+ }
+
+input {
+    margin-top: -2px;
+    float: right;
+    font-size: 14px;
+    font-variant: small-caps;
+    border: #8ed9dd5b 5px solid;
+ }
+
+ 
+
+
+ /********  END THE ABOUT & SALES PORTION OF THE CODE  ********/
+
+/********  BEGIN THE SHOP & MISC. PORTION OF THE CODE 
+ ---- Most of these divs are self explanitory , please pay no mind ----
+                                                                   ********/
